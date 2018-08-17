@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">John Abbott Intent Practice</string>
+    <string name="mapLocation">See location on Map</string>
+    <string name="about">About Us</string>
+    <string name="webLink">Official Website</string>
+    <string name="aboutUsPlaceholder">Placeholder Text</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="com.mobileapps.jab.savetodb.MainActivity">
+
+    <TableRow>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_name" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_address" />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/address_hint"
+            android:inputType="textPostalAddress" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_phone" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_hint"
+            android:inputType="phone" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnSave"
+            android:text="@string/btnSave"
+            android:layout_span="2"
+            android:onClick="saveData"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnShowAll"
+            android:text="@string/btnShowAll"
+            android:layout_span="2"
+            android:onClick="showAllEntries"
+            />
+    </TableRow>
+
+</TableLayout>

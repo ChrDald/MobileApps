@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SaveToDB</string>
+
+    <string name="lbl_name">Name</string>
+    <string name="name_hint">Enter Name</string>
+
+    <string name="lbl_address">Address</string>
+    <string name="address_hint">Enter Address</string>
+
+    <string name="lbl_phone">Phone</string>
+    <string name="phone_hint">Enter Phone</string>
+
+    <string name="btnSave">Save</string>
+    <string name="btnShowAll">Show All Entries</string>
+
+</resources>
